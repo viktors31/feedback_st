@@ -1,0 +1,176 @@
+div#contact {
+    width: 444px;
+    margin: 0 auto;
+}
+
+div#top {
+    background: url(../../assets/img/okantovka/top.jpg);
+    height: 64px;
+}
+
+div#top h1 {
+    font-family: Verdana, Arial;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+    color: #fff;
+}
+
+div#center {
+    background: url(../../assets/img/okantovka/center.jpg);
+    padding: 5px 15px 5px 25px;
+}
+
+div#bot {
+    background: url(../../assets/img/okantovka/bot.jpg);
+    height: 13px;
+}
+
+* body h2 {
+    border-bottom: 1px solid #0066CC;
+    color:#0066CC;
+}
+
+
+#contact_form {
+    font-family: Verdana, Arial, "Times New Roman";
+    font-size: 12px;
+    color: #666;
+}
+
+#contact_form input, select, textarea {
+    font-size: 11px;
+    color:#999999;
+    width: 250px;
+    height: 28px;
+    border: #CCC solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#contact_form input:hover, select:hover, textarea:hover {
+    border: 1px solid #999;
+}
+
+#contact_form input:focus, select:focus, textarea:focus {
+    border: 1px solid #999;
+}
+
+
+#contact_form select {
+    padding: 5px 5px 3px 5px;
+}
+#contact_form select option {
+    cursor: pointer;
+    padding: 5px;
+}
+
+#contact_form textarea {
+    height: 80px;
+    padding: 4px 2px 2px 4px;
+    font-family: Verdana, Arial, "Times New Roman";
+}
+
+#contact_form input {
+    padding: 0 5px 0px 30px;
+    background-position: 7px 5px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+input#send {
+    padding: 0;
+    cursor:pointer;
+    max-width:135px;
+    max-height: 23px;
+    background: url(../../assets/img/icons/send_button.png);
+}
+
+input#send:hover {
+    border: 1px solid #999;
+    color: #666;
+}
+
+#contact_form label {
+    display:inline-block;
+    width: 100px;
+    vertical-align:top;
+    margin-top: 6px;
+}
+
+#contact_form span {
+    border:0;
+    padding:0;
+    margin:0;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+#name {
+    background-image: url(../../assets/img/icons/user_suit.png);
+}
+
+#email {
+    background-image: url(../../assets/img/icons/email.png);
+}
+
+#phone {
+    background-image: url(../../assets/img/icons/phone.png);
+}
+
+#ajax_loader {
+    display:none;
+}
+
+.success {
+    border: 1px solid #646b64 ;
+    color:#4F8A10;
+    background: #F2FFF2;
+    display:none;
+    margin-top: 3px;
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.error {
+    display:none;
+    margin-top: 3px;
+    font-size: 11px;
+    border: 1px solid #FF4F4F;
+    color:#D6000E;
+    background: #FFF2F2;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.warning {
+    display:none;
+    margin-top: 3px;
+    font-size: 11px;
+    color: #9F6000;
+    background: #FFF9D5;
+    border: 1px solid #FFD324;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#contact_form .noicon {
+    padding: 0px 7px 0 7px;
+    text-align:center;
+}
